@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/Amanieu/parking_lot/commit/85827ffa2ffb0b60d416e2e2a091f36b0e8e5a91",
       "git:hexsha": "85827ffa2ffb0b60d416e2e2a091f36b0e8e5a91",
-      "repolex:parseStatus": "metadata_complete"
+      "repolex:parseStatus": "ast_complete"
     },
     {
       "@id": "https://repolex.ai/r/Amanieu/parking_lot/commit/bbbb57633f74ae27fc23cf4b6aee24e9d3449a10",
