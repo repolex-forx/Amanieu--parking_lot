@@ -3,6 +3,11 @@
   "repo": "parking_lot",
   "versions": [
     {
+      "commit": "d7828fff7b5d6327ae608e82db45f888b344449a",
+      "tag": "parking_lot-v0.12.5",
+      "parsed_at": "2026-11-22T02:22:52.969510+00:00"
+    },
+    {
       "commit": "85827ffa2ffb0b60d416e2e2a091f36b0e8e5a91",
       "tag": "",
       "parsed_at": "2026-11-09T20:58:37.604828+00:00"
