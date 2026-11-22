@@ -190,6 +190,95 @@
       ],
       "ast": [
         "aggregate/ast/d7828fff7b5d6327ae608e82db45f888b344449a/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/d7828fff7b5d6327ae608e82db45f888b344449a.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "parking_lot_core",
+          "ecosystem": "CARGO",
+          "version": "0.9.12",
+          "githubOrg": "Amanieu",
+          "githubRepo": "parking_lot",
+          "githubUrl": "https://github.com/Amanieu/parking_lot",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "lock_api",
+          "ecosystem": "CARGO",
+          "version": "0.4.14",
+          "githubOrg": "Amanieu",
+          "githubRepo": "parking_lot",
+          "githubUrl": "https://github.com/Amanieu/parking_lot",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rand",
+          "ecosystem": "CARGO",
+          "version": "0.8.3",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand",
+          "githubCommit": "6ecbe2626b2cc6110a25c97b1702b347574febc7",
+          "githubTag": "0.8.3",
+          "githubUrl": "https://github.com/rust-random/rand",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "bincode",
+          "ecosystem": "CARGO",
+          "version": "1.3.3",
+          "githubOrg": "bincode-org",
+          "githubRepo": "bincode",
+          "githubUrl": "https://github.com/bincode-org/bincode",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "smallvec",
+          "ecosystem": "CARGO",
+          "version": "1.16.6",
+          "githubOrg": "smallvec",
+          "githubRepo": "smallvec",
+          "githubCommit": "347b5c346168f9648bf4298d6ed49deda7e18aeb",
+          "githubTag": "v1.16.6",
+          "githubUrl": "https://github.com/smallvec/smallvec",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/smallvec-1.16.6/src/lib.rs"
+        },
+        {
+          "packageName": "cfg-if",
+          "ecosystem": "CARGO",
+          "version": "1.0.5",
+          "githubOrg": "rust-lang",
+          "githubRepo": "cfg-if",
+          "githubCommit": "8b0a2b0fc1fa3b3741b9e72895f390cf499fe36f",
+          "githubTag": "v1.0.5",
+          "githubUrl": "https://github.com/rust-lang/cfg-if",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cfg-if-1.0.5/src/lib.rs"
+        },
+        {
+          "packageName": "scopeguard",
+          "ecosystem": "CARGO",
+          "version": "1.2.0",
+          "githubOrg": "bluss",
+          "githubRepo": "scopeguard",
+          "githubCommit": "bb988222848d39b0b9037b29da3a3a1eb05ebf4b",
+          "githubTag": "v1.2.0",
+          "githubUrl": "https://github.com/bluss/scopeguard",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/scopeguard-1.2.0/src/lib.rs"
+        },
+        {
+          "packageName": "libc",
+          "ecosystem": "CARGO",
+          "version": "0.2.191",
+          "githubOrg": "rust-lang",
+          "githubRepo": "libc",
+          "githubCommit": "ccc2ff4aaab962f7fde7b8edda7379c045b1ca12",
+          "githubTag": "0.2.191",
+          "githubUrl": "https://github.com/rust-lang/libc",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/linux_like/linux/mod.rs"
+        }
       ]
     }
   ],
